@@ -49,13 +49,13 @@ rm -f packages.microsoft.gpg
 # ⚙️ Arduino IDE
 # -----------------------------
 echo "🔌 Instalando Arduino IDE..."
-snap install arduino
+apt install arduino
 
 # -----------------------------
 # 🌐 Postman
 # -----------------------------
 echo "📮 Instalando Postman..."
-snap install postman
+apt install postman
 
 # -----------------------------
 # 🛰️ Mosquitto MQTT
